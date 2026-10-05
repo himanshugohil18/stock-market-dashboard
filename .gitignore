@@ -1,0 +1,36 @@
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Logs
+logs/
+*.log
+
+# Node
+node_modules/
+dist/
+
+# Build / cache
+.vite/
+.cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Private keys
+*.pem
+*.key
